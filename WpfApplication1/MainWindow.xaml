@@ -7,6 +7,17 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
-        
+        <Menu x:Name="menu" HorizontalAlignment="Left" Height="30" Margin="5,5,0,0" VerticalAlignment="Top" Width="510">
+            <Button Content="B1">
+                <Button.Effect>
+                    <DropShadowEffect/>
+                </Button.Effect>
+            </Button>
+            <MenuItem Header="Menu Item 1"/>
+            <Button Content="Button 2"/>
+            <Button Content="Show Form"/>
+            <Button Content="Close"/>
+        </Menu>
+        <ToolBarPanel HorizontalAlignment="Left" Height="40" Margin="55,90,0,0" VerticalAlignment="Top" Width="380"/>
     </Grid>
 </Window>
